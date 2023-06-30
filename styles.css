@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ---- Header ---- */
+.container-header {
+    background-color: #5bbad0;
+    border-bottom: 1px solid darkblue;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    width: 800px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    color: darkblue;
+    padding-right: 10px;
+}
+
+.header p {
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.right-links {
+    margin-left: auto;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* ---- Nav Bar ---- */ 
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.nav-buttons {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.button {
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    height: 30px;
+    width: 120px;
+    padding-top: 5px;
+    background-color: #5bbad0;
+    color: white;
+    text-align: center;
+}
+
+/* ---- Content ---- */ 
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.info-text {
+    width: 500px;
+    padding: 5px;
+    
+}
+
+.info-text p {
+    padding-top: 5px;
+}
+
+.news {
+    width: 300px;
+    padding: 5px;
+}
+
+.news h3 {
+    color: white;
+    text-align: center;
+    background-color: #5bbad0;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.news-content {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    height: 230px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.image img {
+    width: 790px;
+    height: auto;
+    border: 5px solid #5bbad0;
+    border-radius: 5px;
+}
+
+.container-footer {
+    background-color: #5bbad0;
+    color: white;
+    margin-top: 5px;
+    padding: 15px 0px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer h5 {
+    width: 800px;
+    align-self: center;
+}
