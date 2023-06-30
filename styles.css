@@ -65,6 +65,10 @@ nav {
     padding: 5px 0px;
 }
 
+.button a {
+    color: white;
+}
+
 .button {
     border: 1px solid darkblue;
     border-radius: 8px;
@@ -184,4 +188,17 @@ nav {
 .contacts p {
     text-align: center;
     padding-bottom: 20px;
+}
+
+/* ---- Join Page ---- */
+
+.content-join {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.join-text {
+    width: 800px;
+    border: 1px solid red;
 }
