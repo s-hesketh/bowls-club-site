@@ -35,6 +35,12 @@
 
 .right-links {
     margin-left: auto;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .header ul {
@@ -68,6 +74,12 @@ nav {
     background-color: #5bbad0;
     color: white;
     text-align: center;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: lightgray;
+    color: darkblue;
 }
 
 /* ---- Content ---- */ 
@@ -136,4 +148,40 @@ nav {
 .container-footer h5 {
     width: 800px;
     align-self: center;
+}
+
+/* ---- Contact Us Page ----*/
+
+.contacts {
+    padding-top: 10px;
+}
+
+.contacts h2 {
+    text-align: center;
+}
+
+.contact-sheets {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.contact-sheet {
+    text-align: center;
+    padding: 5px;
+}
+
+.contact-sheet img {
+    border: 3px solid #5bbad0;
+    border-radius: 25px;
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+}
+
+.contacts p {
+    text-align: center;
+    padding-bottom: 20px;
 }
