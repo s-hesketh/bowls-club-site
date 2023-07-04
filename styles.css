@@ -193,12 +193,57 @@ nav {
 /* ---- Join Page ---- */
 
 .content-join {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .join-text {
     width: 800px;
-    border: 1px solid red;
+    padding: 10px 5px;
+}
+
+.join-text p {
+    padding-top: 10px;
+}
+
+.fees {
+    width: 500px;
+    padding: 5px;
+}
+
+.fees h3 {
+    color: white;
+    text-align: center;
+    background-color: #5bbad0;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.fees-content {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    height: 230px;
+}
+
+/* ---- Gallery Page ----*/
+
+.gallery-image img {
+    border: 3px solid #5bbad0;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
