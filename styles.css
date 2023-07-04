@@ -247,3 +247,46 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+/* ---- Teams Page ---- */
+
+.content-teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teams-text {
+    width: 800px;
+    padding: 10px 5px;
+}
+
+.teams-text p {
+    padding-top: 10px;
+}
+
+.teams {
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.teams {
+    background-color: lightgray;
+    border: 2px solid #5bbad0;
+    border-radius: 10px;
+}
+
+.teams thead {
+    background-color: #5bbad0;
+    padding: 5px;
+    margin: 5px;
+}
+
+.teams td, .teams th {
+    border-bottom: 1px solid #5bbad0;
+    padding: 5px;
+}
+
+.captain {
+    text-align: center;
+}
