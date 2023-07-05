@@ -86,7 +86,7 @@ nav {
     color: darkblue;
 }
 
-/* ---- Content ---- */ 
+/* ---- Home Page Content ---- */ 
 
 .content {
     display: flex;
@@ -95,8 +95,7 @@ nav {
 
 .info-text {
     width: 500px;
-    padding: 5px;
-    
+    padding: 5px;    
 }
 
 .info-text p {
@@ -289,4 +288,78 @@ nav {
 
 .captain {
     text-align: center;
+    width: 250px;
+}
+
+/* ---- Trophies Page ---- */
+
+.content-trophies {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.trophies h3,
+.team-successes h3 {
+    color: white;
+    text-align: center;
+    background-color: #5bbad0;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.trophies {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trophies h3 {
+    width: 400px;
+}
+
+.team-successes h3 {
+    width: 550px;
+}
+
+.team-successes {
+    width: 550px;
+}
+
+.trophies img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #5bbad0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.trophies-images {
+    display: flex;
+    gap: 5px;
+}
+
+.team-successes-content {
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    height: 230px;
+}
+
+.successes td, .teams th {
+    border: 1px solid #5bbad0;
+    padding: 5px;
+}
+
+.successes {
+    width: 530px;
+}
+
+/* ---- Locations Page ----*/
+
+.location-imbed {
+    margin-bottom: 20px;
 }
